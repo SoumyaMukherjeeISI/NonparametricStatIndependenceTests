@@ -1,0 +1,73 @@
+Bivariate Normal:
+
+> alpha_hat1
+[1] 0.047
+
+> alpha_hat2
+[1] 0.042
+
+> alpha_hat3
+[1] 0.045
+
+> shapiro.test(x)
+
+	Shapiro-Wilk normality test
+
+data:  x
+W = 0.99836, p-value = 0.465
+
+
+Plackett:
+
+> alpha_hat1
+[1] 0.051
+
+> alpha_hat2
+[1] 0.043
+
+> alpha_hat3
+[1] 0.05
+
+> shapiro.test(x)
+
+	Shapiro-Wilk normality test
+
+data:  x
+W = 0.99795, p-value = 0.2643
+
+
+Clayton:
+
+> alpha_hat1
+[1] 0.045
+
+> alpha_hat2
+[1] 0.05
+
+> alpha_hat3
+[1] 0.053
+
+> shapiro.test(x)
+
+	Shapiro-Wilk normality test
+
+data:  x
+W = 0.99812, p-value = 0.3357
+
+Bivariate Logistic
+> alpha_hat1
+[1] 0.039
+
+> alpha_hat2
+[1] 0.041
+
+> alpha_hat3
+[1] 0.044
+
+> shapiro.test(x)
+
+	Shapiro-Wilk normality test
+
+data:  x
+W = 0.99842, p-value = 0.5021
+
